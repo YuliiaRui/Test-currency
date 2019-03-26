@@ -1,3 +1,7 @@
+.all-currency {
+    display: flex;
+}
+
 .title-name {
     opacity: 0.6;
     padding: 2%;
@@ -40,7 +44,6 @@
 }
 
 .arrow {
-    align-items: center;
     display: flex;
 }
 
@@ -78,4 +81,8 @@
 .img-button {
     display: flex;
     justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
 }

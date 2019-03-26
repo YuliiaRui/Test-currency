@@ -1,0 +1,1 @@
+let recieve = document.querySelector(".recieve")
