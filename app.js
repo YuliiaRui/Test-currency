@@ -1,4 +1,4 @@
-let recieveBtn = document.querySelector(".recieve-button");
+const recieveBtn = document.getElementById("btn");
 let recieve = document.querySelector(".recieve");
 let close = document.querySelector(".closeBtn");
 

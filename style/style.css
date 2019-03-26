@@ -7,7 +7,6 @@
     height: 15px;
     border-radius: 50%;
     background-color: gray;
-
 }
 
 .carousel-indicators .active {
@@ -15,6 +14,17 @@
     height: 15px;
     border-radius: 50%;
     background-color: #8bc34a;
+}
+
+.name-block {
+    margin: auto;
+}
+
+.block-text {
+    text-align: end;
+    position: absolute;
+    margin: -5% -10%;
+    width: 300px;
 }
 
 .all-currency {
@@ -29,33 +39,24 @@
     font-size: 50px;
 }
 
-.work-currency {
-    width: 68%;
-    margin: 0 auto;
-}
-
 .right-works {
     margin: 17% auto;
 }
 
 .number-arrow {
-    margin: 0 0 15% 0;
+    justify-content: flex-end;
     display: flex;
     align-items: baseline;
 }
 
 .number-left {
-    margin: 0 0 -50% 50%;
     font-size: 200px;
     opacity: 0.2;
-
 }
 
 .number-right {
-    margin: 0 0 -50% -30%;
     font-size: 200px;
     opacity: 0.2;
-
 }
 
 .arrow {
@@ -73,16 +74,32 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-
 }
 
-.arrow-line {
-    display: flex;
+.arrow-line>p {
+    font-size: 40px;
+    text-align: end;
+    margin: -8% -4%;
+}
+
+.arrow-line-left>p {
+    font-size: 40px;
+     text-align: start;
+    margin: -8% -4%;
 }
 
 .borger {
     border-top: 1px dashed black;
-     width: 300px;
+    width: 300px;
+    border-right: 1px dashed;
+    height: 50px;
+}
+
+.borger-left {
+    border-top: 1px dashed black;
+    width: 300px;
+    border-left: 1px dashed;
+    height: 50px;
 }
 
 .button {
