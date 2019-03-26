@@ -1,5 +1,25 @@
+.carousel-indicators {
+    top: 100%;
+}
+
+.carousel-indicators .point {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray;
+
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #8bc34a;
+}
+
 .all-currency {
     display: flex;
+    justify-content: center;
 }
 
 .title-name {
@@ -11,7 +31,6 @@
 
 .work-currency {
     width: 68%;
-    display: flex;
     margin: 0 auto;
 }
 
@@ -84,10 +103,21 @@
 }
 
 .card {
+    margin: 5%;
     border: 1px solid black;
 }
 
 .recieve-button:hover {
     cursor: pointer;
     color: red;
+}
+
+.block-currentsy {
+    background-color: beige;
+    width: 20%;
+}
+
+.block-currentsy>p {
+    text-align: center;
+    font-size: 25px;
 }
