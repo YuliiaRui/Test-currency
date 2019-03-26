@@ -65,7 +65,7 @@
 
 .recieve {
     background: white;
-    display: block;
+    display: none;
     width: 700px;
     height: 500px;
     border: 1px solid black;
@@ -85,4 +85,9 @@
 
 .card {
     border: 1px solid black;
+}
+
+.recieve-button:hover {
+    cursor: pointer;
+    color: red;
 }
