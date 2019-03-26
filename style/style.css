@@ -19,7 +19,7 @@
 
 .all-currency {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .title-name {
@@ -44,26 +44,34 @@
     align-items: baseline;
 }
 
-.number-arrow {
-    text-align: end;
-    display: flex;
-    align-items: baseline;
-}
-
 .number-left {
     margin: 0 0 -50% 50%;
     font-size: 200px;
+    opacity: 0.2;
 
 }
 
 .number-right {
     margin: 0 0 -50% -30%;
     font-size: 200px;
+    opacity: 0.2;
 
 }
 
 .arrow {
-    display: flex;
+    opacity:0;
+}
+
+.card:hover> .arrow {
+    opacity: 1;
+}
+
+.card:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
 }
 
 .borger {
@@ -103,7 +111,8 @@
 }
 
 .card {
-    margin: 5%;
+    width: 200px;
+    margin: 5% auto;
     border: 1px solid black;
 }
 
@@ -121,3 +130,15 @@
     text-align: center;
     font-size: 25px;
 }
+
+.name-currentsy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-currentsy {
+    display: flex;
+}
+
+
+
