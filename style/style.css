@@ -60,6 +60,8 @@
 
 .arrow {
     opacity:0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .card:hover> .arrow {
@@ -72,6 +74,10 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 
+}
+
+.arrow-line {
+    display: flex;
 }
 
 .borger {
@@ -97,6 +103,8 @@
     height: 500px;
     border: 1px solid black;
     position: absolute;
+    margin: 7% 18%;
+    z-index: 1;
 }
 
 .name {
@@ -106,8 +114,24 @@
 }
 
 .img-button {
+    margin: 5%;
+    align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.button-img {
+    border: 1px solid;
+    width: 100px;
+    height: 35px;
+    background: antiquewhite;
+    margin: 10% auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.button-img:hover {
+    cursor: pointer;
 }
 
 .card {
@@ -126,7 +150,7 @@
     width: 20%;
 }
 
-.block-currentsy>p {
+.name {
     text-align: center;
     font-size: 25px;
 }
@@ -140,5 +164,9 @@
     display: flex;
 }
 
+.text-document {
+    display: flex;
+    justify-content: center;
+}
 
 
